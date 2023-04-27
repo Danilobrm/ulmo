@@ -19,7 +19,7 @@ export default function Home({navigation}: Props) {
   });
   return (
     <SafeAreaView style={style.container}>
-      <ScrollView>
+      <ScrollView showsVerticalScrollIndicator={false}>
         <View style={style.titleBox}>
           <Text style={(typography.font, style.title)}>ulmo</Text>
         </View>
