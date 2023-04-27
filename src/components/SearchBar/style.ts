@@ -7,6 +7,7 @@ const style = StyleSheet.create({
     height: 80,
     width: '100%',
     alignItems: 'center',
+    alignSelf: 'center',
   },
   searchBar: {
     width: 343,
