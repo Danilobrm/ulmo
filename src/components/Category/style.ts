@@ -11,7 +11,8 @@ const style = StyleSheet.create({
     display: 'flex',
     flexDirection: 'row',
     justifyContent: 'space-between',
-    marginBottom: 16,
+    marginVertical: 8,
+    alignSelf: 'center',
   },
   title: {
     fontFamily: 'Poppins-SemiBold',
