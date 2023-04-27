@@ -3,9 +3,11 @@ import typography from '../../styles/typography';
 
 const style = StyleSheet.create({
   container: {
-    height: 88,
-    width: 88,
     marginHorizontal: 6,
+    borderRadius: 8,
+    alignContent: 'center',
+    alignSelf: 'center',
+    justifyContent: 'center',
   },
   image: {
     borderRadius: 8,

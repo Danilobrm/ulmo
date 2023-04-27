@@ -9,11 +9,8 @@ import Storie from '../../../../components/Story/Story';
 
 const Stories = () => {
   return (
-    <SafeAreaView>
-      <ScrollView
-        style={style.container}
-        horizontal
-        showsHorizontalScrollIndicator={false}>
+    <SafeAreaView style={style.container}>
+      <ScrollView horizontal showsHorizontalScrollIndicator={false}>
         {stories.map((story: StoriesType, index: number) => {
           return <Storie key={index} image={story.image} title={story.title} />;
         })}
