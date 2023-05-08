@@ -8,7 +8,7 @@ import {TouchableOpacity} from 'react-native';
 
 const Category = ({image, title}: CategoriesType) => {
   return (
-    <TouchableOpacity activeOpacity={0.7}>
+    <TouchableOpacity activeOpacity={0.7} onPress={() => console.log(title)}>
       <SafeAreaView style={style.container}>
         <Text style={style.title}>{title}</Text>
         <Image style={style.image} source={image} />
